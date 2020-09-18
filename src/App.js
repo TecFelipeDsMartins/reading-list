@@ -1,11 +1,13 @@
 import React from "react";
-import "./style.css";
+import BookContextProvider from './Context/BookContext'
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <BookContextProvider>
+      </BookContextProvider>
     </div>
   );
 }
+
+export default App
