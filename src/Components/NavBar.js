@@ -3,9 +3,11 @@ import { BookContext } from '../Context/BookContext'
 
 const NavBar = () => {
   const {books} = useContext(BookContext)
+  let num  = 0
   return(
     <div>
-      <p>{books}</p>
+      <p>{books.length}</p>
+    
     </div>
   )
 }
