@@ -6,8 +6,7 @@ const NavBar = () => {
   let num  = 0
   return(
     <div>
-      <p>{books.length}</p>
-    
+      <p>You have {books.length} books</p>
     </div>
   )
 }
