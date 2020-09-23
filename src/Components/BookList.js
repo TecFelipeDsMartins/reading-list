@@ -12,7 +12,7 @@ const BookList = () => {
         }
       </ol>
     </div>
-  ) : (
+    ) : (
     <div className='empty'>Não existe livos para ler</div>
   )
 }
