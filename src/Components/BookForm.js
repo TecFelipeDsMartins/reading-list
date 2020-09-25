@@ -7,7 +7,10 @@ const BookForm = () =>{
   const [ title, setTitle] = useState('')
   const [ author, setAuthor] = useState('')
   return(
-
+    <form>
+      <input type="text" placeholder="Book here" value={title}
+      onChange={(e) => setTitle(e.target.value)} required />
+    </form>
   )
 }
 
