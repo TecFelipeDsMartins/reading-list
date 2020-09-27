@@ -14,10 +14,12 @@ const BookForm = () =>{
   }
   return(
     <form onSubmit={handleSubmit}>
+      <i class="fas fa-book fa-1x book-icon"></i>
       <input type="text" placeholder="Book here" value={title}
       onChange={(e) => setTitle(e.target.value)} required />
       <input type="text" placeholder="Author here" value={author}
       onChange={(e) => setAuthor(e.target.value)} required />
+      
       <input className="submit-btn" type="submit" value="add book" />
     </form>
   )

@@ -50,6 +50,10 @@ form input{
 }
 
 .submit-btn{
+  display: block;
+  padding-bottom: 5px;
+  margin: auto auto;
+  width: 110px;
   color: gray;
   box-shadow: 2px 2px 2px gray;
   background-color:rgb(255, 255, 0);
@@ -58,3 +62,10 @@ form input{
 .submit-btn:hover{
   box-shadow: 1px 1px 1px gray;
 } 
+
+.book-icon{
+  margin-top: 5px;
+  box-sizing: border-box;
+  color: gray;
+  font-size: 25px !important ;
+}
