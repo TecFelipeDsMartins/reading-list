@@ -13,7 +13,7 @@ const BookList = () => {
       </ol>
     </div>
     ) : (
-    <div className='empty'>Não existe livos para ler</div>
+    <div className='empty'>There are no books to read.</div>
   )
 }
 

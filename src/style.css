@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: burlywood;
+  background-color: rgb(245, 253, 136);
 }
 
 /* app styles */
@@ -40,4 +40,21 @@ nav ul li {
 .book-list li:hover {
   text-decoration: line-through;
   cursor: pointer;
+} 
+
+form input{
+  padding: 5px;
+  border-radius: 2px;
+  border-style: none;
+  margin: 3px;
+}
+
+.submit-btn{
+  color: gray;
+  box-shadow: 2px 2px 2px gray;
+  background-color:rgb(255, 255, 0);
+}
+
+.submit-btn:hover{
+  box-shadow: 1px 1px 1px gray;
 } 
